@@ -1,11 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blikající AHOJ</title>
+  <style>
+    /* Definice animace pro změnu barvy pozadí */
+    @keyframes changeColor {
+      0% { background-color: red; }
+      25% { background-color: blue; }
+      50% { background-color: green; }
+      75% { background-color: yellow; }
+      100% { background-color: purple; }
+    }
+
+    /* Styl pro text a stránku */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      font-size: 3em;
+      color: white;
+      animation: changeColor 5s infinite; /* Barvy se mění každých 5 sekund */
+    }
+  </style>
 </head>
 <body>
-    <div class="blinking-box"></div>
+  AHOJ
 </body>
 </html>
