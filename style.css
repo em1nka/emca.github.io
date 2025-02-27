@@ -1,0 +1,50 @@
+/* Základní reset pro okraje a padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Nastavení pro celé tělo stránky */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d2b692;
+}
+
+/* Navigační lišty */
+.navbar {
+    display: flex; /* Používáme Flexbox pro horizontální rozložení */
+    justify-content: center; /* Zarovnání lišt na střed */
+    background-color: #808080; /* Šedé pozadí */
+    padding: 10px 0; /* Tenký prostor kolem */
+    position: fixed; /* Lišty budou fixní na vrchu */
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Aby byly vždy nahoře */
+}
+
+/* Vzhled jednotlivých odkazů v lištách */
+.navbar a {
+    color: black; /* Černé písmo */
+    text-decoration: none; /* Bez podtržení */
+    padding: 12px 20px; /* Vnitřní okraje kolem textu */
+    font-size: 16px; /* Velikost písma */
+    text-align: center;
+    transition: background-color 0.3s ease; /* Plynulý přechod pro změnu pozadí */
+}
+
+/* Efekt při najetí myší */
+.navbar a:hover {
+    background-color: #555; /* Tmavší šedá při najetí */
+}
+
+/* Obsah stránky, aby nebyl zakrytý lištami */
+.content {
+    padding-top: 60px; /* Vytvoříme mezeru nahoře, aby obsah nebyl zakrytý lištami */
+    text-align: center;
+    font-size: 18px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
