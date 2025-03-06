@@ -15,7 +15,7 @@ body {
 .navbar {
     display: flex; /* Používáme Flexbox pro horizontální rozložení */
     justify-content: center; /* Zarovnání lišt na střed */
-    background-color: #676464; /* Šedé pozadí */
+    background-color: #b1b1b1; /* Šedé pozadí */
     padding: 10px 0; /* Tenký prostor kolem */
     position: fixed; /* Lišty budou fixní na vrchu */
     top: 0;
