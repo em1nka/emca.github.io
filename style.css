@@ -8,14 +8,14 @@
 /* Nastavení pro celé tělo stránky */
 body {
     font-family: Arial, sans-serif;
-    background-color: #d2b692;
+    background-color: #ffffff;
 }
 
 /* Navigační lišty */
 .navbar {
     display: flex; /* Používáme Flexbox pro horizontální rozložení */
     justify-content: center; /* Zarovnání lišt na střed */
-    background-color: #808080; /* Šedé pozadí */
+    background-color: #ffffff; /* Šedé pozadí */
     padding: 10px 0; /* Tenký prostor kolem */
     position: fixed; /* Lišty budou fixní na vrchu */
     top: 0;
@@ -35,7 +35,7 @@ body {
 
 /* Efekt při najetí myší */
 .navbar a:hover {
-    background-color: #555; /* Tmavší šedá při najetí */
+    background-color: #939193; /* Tmavší šedá při najetí */
 }
 
 /* Obsah stránky, aby nebyl zakrytý lištami */
