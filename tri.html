@@ -5,91 +5,93 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>jak na adopci</title>
-  <link rel="stylesheet" href="style.css">
-<style>
-    /* Styly pro zarovnání nadpisu na střed */
-    h1 {
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    /* Styly pro zarovnání obrázků vedle sebe */
-    .image-container {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        margin-top: 20px;
-    }
-
-    .image-box {
-        text-align: center;
-    }
-
-    .image-container img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    /* Styl pro text pod obrázky */
-    .image-box p {
-        text-align: center;
-        margin-top: 10px;
-    }
-</style>
-</head>
-<body>
-        <div class="navbar">
-            <a href="index.html">plemena koček</a>
-            <a href="dva.html" class="active">porovnání živ. stylu</a>
-            <a href="tri.html">jak na adopci</a>
-        </div>
-       
-<h1>porovnání životního stylu koček: Venkovní vs. domácí prostředí</h1>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      background-color: #f0f0f0;
+      background-color: #f9f9f9;
     }
 
     .container {
-      text-align: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+ 
+      <!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Obrázky a Text</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
     }
 
-    .images {
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .row {
       display: flex;
-      justify-content: center;
-      gap: 20px;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 40px;
     }
 
-    .images img {
-      width: 300px;
-      height: 300px;
+    .row img {
+      width: 45%;
+      height: auto;
       object-fit: cover;
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
-    .text {
-      margin-top: 20px;
+    .row .text {
+      width: 45%;
       font-size: 18px;
       color: #333;
+      line-height: 1.6;
+    }
+
+    .row .text h2 {
+      margin-bottom: 20px;
+      font-size: 24px;
+      color: #444;
+    }
+
+    .row .text p {
+      font-size: 18px;
+      color: #555;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <div class="images">
-      <img src="https://www.utulekzlin.cz/image/images/cms/articles/IMG_7462.jpeg/?w=900" alt="Kočka v útulku">
-      <img src="https://krmeni.cz/media/foto_clanky/mk/koc33.bmp" alt="Kočka v domácnosti">
+    <!-- První řádek: obrázek vlevo, text vpravo -->
+    <div class="row">
+      <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.utulekzlin.cz%2Fkocky-0%2F&psig=AOvVaw3Svy6Mabju4HJdVu_Vh70W&ust=1741336436170000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCjsu-F9YsDFQAAAAAdAAAAABAE" alt="Kočka v útulku">
+      <div class="text">
+        <h2>Kočka v útulku</h2>
+        <p>Jak adoptovat kočku z útulku:
+            Adopce kočky z útulku je krásný způsob, jak poskytnout zvířeti nový domov a lásku. Pokud chcete adoptovat kočku z útulku, první krok je navštívit místní útulek, kde můžete potkat kočky, které hledají domov. Před adopcí je důležité zvážit, zda máte čas, prostor a prostředky na péči o kočku. Útulky často požadují vyplnění formuláře a mohou se ptát na vaši zkušenost s péčí o zvířata. Po schválení adopce se kočka obvykle podrobí veterinárnímu vyšetření a očkování, než vám bude svěřena.</p>
+      </div>
     </div>
-    <div class="text">
-      <p>Na levém obrázku je kočka v útulku, na pravém obrázku kočka v domácnosti.</p>
+
+    <!-- Druhý řádek: obrázek vlevo, text vpravo -->
+    <div class="row">
+      <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.santakocici.cz%2F&psig=AOvVaw3Svy6Mabju4HJdVu_Vh70W&ust=1741336436170000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCjsu-F9YsDFQAAAAAdAAAAABAJ" alt="Kočka v domácnosti">
+      <div class="text">
+        <h2>Kočka v domácnosti</h2>
+        <p>Jak adoptovat kočku z domácnosti:
+            Adopce kočky z domácnosti je skvělý způsob, jak získat zvíře, které je již zvyklé na život v domácím prostředí. Kočky k adopci z domácností často pocházejí z různých situací, jako jsou záchrany nebo kočky, které nemohou zůstat u svého původního majitele. Proces adopce je obvykle jednodušší než v útulku a můžete se setkat přímo s kočkou v jejím domově. Doporučuje se si kočku nejprve důkladně prohlédnout, ujistit se, že vyhovuje vašim potřebám, a domluvit se na podmínkách adopce, jako je veterinární péče a zvyklosti kočky.</p>
+      </div>
     </div>
   </div>
 </body>
