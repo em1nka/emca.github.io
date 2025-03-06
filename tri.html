@@ -1,30 +1,40 @@
-
 <!DOCTYPE html>
 <html lang="cs">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>jak na adopci</title>
+  <link rel="stylesheet" href="style.css">
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f9f9f9;
+    /* Styly pro zarovnání nadpisu na střed */
+    h1 {
+      text-align: center;
+      margin-top: 20px;
     }
 
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 20px;
- 
-      <!DOCTYPE html>
-<html lang="cs">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Obrázky a Text</title>
-  <style>
+    /* Styly pro zarovnání obrázků vedle sebe */
+    .image-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .image-box {
+      text-align: center;
+    }
+
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* Styl pro text pod obrázky */
+    .image-box p {
+      text-align: center;
+      margin-top: 10px;
+    }
+
     body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -73,6 +83,14 @@
   </style>
 </head>
 <body>
+  <div class="navbar">
+    <a href="index.html">plemena koček</a>
+    <a href="dva.html" class="active">porovnání živ. stylu</a>
+    <a href="tri.html">jak na adopci</a>
+  </div>
+
+  <h1>porovnání životního stylu koček: Venkovní vs. domácí prostředí</h1>
+
   <div class="container">
     <!-- První řádek: obrázek vlevo, text vpravo -->
     <div class="row">
